@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rdf build && mkdir build && cp -R index.html images build"
+    "build": "rm -rf build && mkdir build && cp -R index.html images build"
   },
   "author": "",
   "license": "ISC"
